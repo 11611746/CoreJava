@@ -3,6 +3,14 @@
 *It needs a specefic condition to work with it, either the conditions must be true or false.
 *We need to specify the condition in the 'IF' part and if the condition matches the 'IF' block will execute.
 *The 'ELSE' part has no condition in it, this 'ELSE' block works only if the 'IF' part condition is false.
+
+Eg:
+if(condition){
+Expression1;
+}
+else{
+Expression2;
+}
 */
 
 public class IfElse{
