@@ -6,10 +6,10 @@
 
 Eg:
 if(condition){
-Expression1;
+Statement1;
 }
 else{
-Expression2;
+Statement2;
 }
 */
 
