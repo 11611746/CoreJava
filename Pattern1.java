@@ -20,19 +20,19 @@ public class Pattern1{
     int line,star;
     System.out.println("Using For Loop\n");
     for (line=1; line<6; line++) {              //this will create the lines
-      for (star=1; star<6; star++) {            //this will print the * on each line, number of stars that will be printed on each line will be based on the line number
-        if (line==1 || line==5) {
+      for (star=1; star<6; star++) {            //this will print the * on each line.
+        if (line==1 || line==5) {               //this will print all the stars in line 1 and 5
           System.out.print(" * ");
         }
-        else{
+        else{                                   //this will print the first and the fifth star in line 2,3 and 4
         if (star==2 || star==3 || star==4)
-          System.out.print("   ");
+          System.out.print("   ");              //this will print the blank spaces instead of stars
 
         else
-          System.out.print(" * ");
+          System.out.print(" * ");              //for printing the star
         }
       }
-      System.out.println("");
+      System.out.println("");                   //move to next line
     }
 
     System.out.println("\nUsing While Loop\n");
